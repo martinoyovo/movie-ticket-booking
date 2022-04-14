@@ -1,0 +1,32 @@
+name: movie_ticket_booking
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  gap: ^2.0.0
+  google_fonts: ^2.3.1
+  flutter_svg: ^1.0.3
+  carousel_slider: ^4.0.0
+  dotted_border: ^2.0.0+2
+  calendar_timeline: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
