@@ -3,7 +3,7 @@
 ### Get Started
 
 ```shell
-git clone https://github.com/martinoyovo/messenger-app.git
+git clone https://github.com/martinoyovo/movie-ticket-booking.git
 flutter clean
 flutter packages get
 flutter run
