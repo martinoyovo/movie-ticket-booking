@@ -1,18 +1,18 @@
 List<Map<String, dynamic>> movieDetails = [
   {
     'key': 'Director',
-    'value': 'Rian Johnson'
+    'value': 'Rian Johnson',
   },
   {
     'key': 'Writer',
-    'value': 'Rian Johnson'
+    'value': 'Rian Johnson',
   },
   {
     'key': 'Genre',
-    'value': 'Action, Sci-fi'
+    'value': 'Action, Sci-fi',
   },
   {
     'key': 'PH',
-    'value': 'Lucasfilm, Ltd.'
+    'value': 'Lucasfilm, Ltd.',
   },
 ];
