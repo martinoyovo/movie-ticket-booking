@@ -1,10 +1,9 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 
-
 class DottedContainer extends StatelessWidget {
   final Widget child;
-  const DottedContainer({Key? key, required this.child}) : super(key: key);
+  const DottedContainer({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {

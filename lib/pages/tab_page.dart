@@ -1,4 +1,3 @@
-import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:movie_ticket_booking/data/tab_list.dart';
@@ -8,7 +7,7 @@ import 'package:movie_ticket_booking/widgets/dotted_container.dart';
 import 'package:movie_ticket_booking/widgets/svg_icon.dart';
 
 class TabPage extends StatefulWidget {
-  const TabPage({Key? key}) : super(key: key);
+  const TabPage({super.key});
 
   @override
   State<TabPage> createState() => _TabPageState();
@@ -48,7 +47,7 @@ class _TabPageState extends State<TabPage> {
         items: tabList.map<BottomNavigationBarItem>((item) {
           return BottomNavigationBarItem(
             icon: DottedContainer(
-                child: SvgIcon(assetName: item,)
+              child: SvgIcon(assetName: item),
             ),
             label: 'Home',
           );
