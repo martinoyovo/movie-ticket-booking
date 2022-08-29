@@ -1,11 +1,9 @@
-import 'package:calendar_timeline/calendar_timeline.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:movie_ticket_booking/data/movie_data.dart';
 import 'package:movie_ticket_booking/pages/booking_page.dart';
 import 'package:movie_ticket_booking/utils/styles.dart';
-import 'package:movie_ticket_booking/widgets/svg_icon.dart';
 
 class SavedBooking extends StatelessWidget {
   const SavedBooking({Key? key}) : super(key: key);

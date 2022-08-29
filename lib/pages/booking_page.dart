@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'package:calendar_timeline/calendar_timeline.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
@@ -24,7 +25,7 @@ class BookingPage extends StatelessWidget {
             initialDate: DateTime.now(),
             firstDate: DateTime(2019, 1, 15),
             lastDate: DateTime(2022, 11, 20),
-            onDateSelected: (date) => print(date),
+            onDateSelected: (date) => log(date.toString()),
             leftMargin: 20,
             monthColor: Colors.white.withOpacity(0.6),
             dayColor: Colors.white.withOpacity(0.6),
@@ -67,7 +68,7 @@ class BookingPage extends StatelessWidget {
                           color: Colors.white
                       ),
                       child: index == 2 ? const SizedBox() : Image.asset(Styles.imagePath('cgv.png'))),
-                  title: Text(index == 2 ? 'XXI Pamulang Barat' : 'CGV Pamulang Barat', style: TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
+                  title: Text(index == 2 ? 'XXI Pamulang Barat' : 'CGV Pamulang Barat', style: const TextStyle(fontWeight: FontWeight.w700, color: Colors.white),),
                   collapsedIconColor: Colors.white,
                   iconColor: Styles.highlightColor,
                   children: [
