@@ -100,6 +100,16 @@ class DetailsPage extends StatelessWidget {
                     ],
                   )
                 ),
+                Positioned(
+                  top: 40,
+                  left: 0,
+                  child: IconButton(
+                    icon: const Icon(CupertinoIcons.back, color: Colors.white,),
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                  ),
+                )
               ],
             ),
             const Gap(210),
